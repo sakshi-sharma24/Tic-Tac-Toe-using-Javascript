@@ -20,9 +20,11 @@ function nextMove(square)
 	}
 	if(WinningCondition())
 	{
-		alert("Game complete");
-	    alert(+" "+"Won the game");
+		alert(" Game complete");
+	    alert(square.innerText+" "+"Won the game");
+		restart();
 	}
+	
 }
 
 function switchTurn()
@@ -66,5 +68,17 @@ function check(str)
 	return true;
 	else return false;
 }
+function resetValue(id)
+{
+	document.getElementById("s"+id).innerHTML = "";
+}
 
+function restart(square)
+{
+	var i=1;
+	document.turn="X"
+	setMessage("X has to start");
+	for(i=1;i<10;i++)
+		resetValue(i);
+}
 
