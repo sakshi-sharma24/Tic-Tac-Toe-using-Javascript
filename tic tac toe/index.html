@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>
+TIC TAC TOE
+</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Pacifico" rel="stylesheet">
+</head>
+<body onload="startGame();">
+<h1>TIC TAC TOE</h1>
+<div id="message">All messages here.</div>
+<table border="1" cellpadding="0" cellspacing="0">
+<tr>
+<td id="s1" class="square"  onclick="nextMove(this)"></td>
+<td id="s2" class="square"  onclick="nextMove(this)"></td>
+<td id="s3" class="square" onclick="nextMove(this)"></td>
+</tr>
+<tr>
+<td id="s4" class="square" onclick="nextMove(this)"></td>
+<td id="s5" class="square" onclick="nextMove(this)"></td>
+<td id="s6" class="square"  onclick="nextMove(this)"></td>
+</tr>
+<tr>
+<td id="s7" class="square" onclick="nextMove(this)"></td>
+<td id="s8" class="square" onclick="nextMove(this)"></td>
+<td id="s9" class="square" onclick="nextMove(this)"></td>
+</tr>
+</table>
+<div id="btn">
+<button id="btn-click" onclick="restart()">Restart</button>
+
+<script src="main.js"></script>
+</body>
+</html>

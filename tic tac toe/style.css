@@ -1,0 +1,36 @@
+body
+{
+   margin:auto;	
+   width:250px;
+   background-color: #9999ff;
+   
+}
+h1
+{
+font-family: 'Dancing Script', cursive;
+}
+.square
+{
+   width:200px;
+   height:80px;
+   font-size:50px;
+   text-align:center;
+   background-color:#cc99ff;
+  
+}
+
+#message	
+{
+	font-size:25px;
+	font-family: 'Dancing Script', cursive;
+}
+#btn
+{
+	padding-top:30px;
+}
+button
+{
+	width:100px;
+	height:40px;
+    position:relative;                                                 
+}
